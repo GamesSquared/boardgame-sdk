@@ -1,0 +1,29 @@
+{
+  "name": "@Bigalan09/boardgame-sdk",
+  "main": "lib/core/index.js",
+  "types": "lib/core/index.d.ts",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/uuid": "^8.3.0",
+    "@typescript-eslint/eslint-plugin": "^4.27.0",
+    "@typescript-eslint/parser": "^4.27.0",
+    "typescript": "^4.2.4"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "develop": "tsc --watch",
+    "build": "tsc",
+    "clean": "rm -r src",
+    "prepack": "yarn run build"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "uuid": "^8.3.2"
+  },
+  "files": [
+    "lib",
+    "src"
+  ]
+}
