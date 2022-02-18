@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "noImplicitAny": true,
+        "module": "commonjs",
+        "target": "es6",
+        "jsx": "react",
+        "sourceMap": true,
+        "strictNullChecks": true,
+        "allowJs": true,
+        "esModuleInterop": true,
+        "moduleResolution": "node",
+        "downlevelIteration": true,
+        "outDir": "./lib",
+        "declaration": true
+    },
+    "exclude": [
+        "node_modules",
+        "docs",
+        "**/webpack.config.js",
+        "lib"
+    ]
+}
