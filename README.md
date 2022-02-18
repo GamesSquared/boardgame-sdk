@@ -1,2 +1,2 @@
-# bg-framework
-A framework for creating board games.
+# Boardgame SDK
+An SDK for creating multiplayer board games.
