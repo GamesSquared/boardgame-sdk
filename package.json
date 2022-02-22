@@ -20,7 +20,7 @@
     "build": "tsc",
     "clean": "rm -r src",
     "test": "jest",
-    "prepack": "yarn run build"
+    "prepack": "npm run build"
   },
   "dependencies": {
     "axios": "^0.21.1",
