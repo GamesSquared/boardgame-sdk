@@ -1,5 +1,5 @@
 {
-  "name": "@bigalan09/boardgame-sdk",
+  "name": "boardgame-sdk",
   "main": "lib/core/index.js",
   "types": "lib/core/index.d.ts",
   "license": "MIT",
