@@ -1,12 +1,15 @@
 {
-  "name": "@Bigalan09/boardgame-sdk",
+  "name": "@bigalan09/boardgame-sdk",
   "main": "lib/core/index.js",
   "types": "lib/core/index.d.ts",
   "license": "MIT",
   "devDependencies": {
+    "@types/jest": "^27.4.0",
     "@types/uuid": "^8.3.0",
     "@typescript-eslint/eslint-plugin": "^4.27.0",
     "@typescript-eslint/parser": "^4.27.0",
+    "jest": "^27.5.1",
+    "ts-jest": "^27.1.3",
     "typescript": "^4.2.4"
   },
   "publishConfig": {
@@ -16,6 +19,7 @@
     "develop": "tsc --watch",
     "build": "tsc",
     "clean": "rm -r src",
+    "test": "jest",
     "prepack": "yarn run build"
   },
   "dependencies": {
