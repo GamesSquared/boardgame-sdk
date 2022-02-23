@@ -3,6 +3,10 @@
   "main": "lib/core/index.js",
   "types": "lib/core/index.d.ts",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Bigalan09/boardgame-sdk.git"
+  },
   "devDependencies": {
     "@types/jest": "^27.4.0",
     "@types/uuid": "^8.3.0",
